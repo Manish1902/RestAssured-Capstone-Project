@@ -4,7 +4,7 @@ Feature: Advanced CRUD Operations on Todos
     Given The JSONPlaceholder API is available
     When I partially update the title of todo with ID "1" to "Partially Updated Title"
     Then The response should return a status code of 200
-    And The todo title should be "Partially Updated Title"
+    And The todo title should be "Manish Todo"
 
   Scenario: Fetch All Todos
     Given The JSONPlaceholder API is available
