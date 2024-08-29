@@ -20,6 +20,6 @@ Feature: Advanced CRUD Operations on Todos
 
   Scenario: Validate Todo Not Found
     Given The JSONPlaceholder API is available
-    When I fetch details for todo with ID "9999"
+    When I fetch details for todo with ID "9"
     Then The response should return a status code of 404
     And The response message should be "Not Found"
